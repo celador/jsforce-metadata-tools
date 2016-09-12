@@ -35,18 +35,18 @@
     "test"
   ],
   "dependencies": {
-    "archiver": "^0.14.4",
-    "commander": "^2.8.1",
-    "fstream": "^1.0.7",
-    "jsforce": "^1.5.0",
-    "readable-stream": "^2.0.2",
+    "archiver": "^1.1.0",
+    "commander": "^2.9.0",
+    "fstream": "^1.0.10",
+    "jsforce": "^1.7.0",
+    "readable-stream": "^2.1.5",
     "unzip": "^0.1.11",
-    "xml2js": "^0.4.10"
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
-    "espower-loader": "^0.10.0",
-    "intelli-espower-loader": "^0.6.0",
-    "mocha": "^2.2.5",
-    "power-assert": "^0.11.0"
+    "espower-loader": "^1.0.1",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.0.2",
+    "power-assert": "^1.4.1"
   }
 }
