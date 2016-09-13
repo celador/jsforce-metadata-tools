@@ -38,7 +38,7 @@
     "archiver": "^1.1.0",
     "commander": "^2.9.0",
     "fstream": "^1.0.10",
-    "jsforce": "^1.7.0",
+    "jsforce": "github:celador/jsforce",
     "readable-stream": "^2.1.5",
     "unzip": "^0.1.11",
     "xml2js": "^0.4.17"
