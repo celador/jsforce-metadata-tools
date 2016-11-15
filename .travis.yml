@@ -13,3 +13,4 @@ deploy:
   on:
     tags: true
     repo: CodeScience/jsforce-metadata-tools
+    branch: master
