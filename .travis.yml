@@ -1,7 +1,15 @@
 language: node_js
 node_js:
-- 0.10
+- 0.1
 sudo: false
 cache:
   directories:
-    - node-modules
+  - node-modules
+deploy:
+  provider: npm
+  email: john.aaron.nelson@gmail.com
+  api_key:
+    secure: V5gRiwTaKolta+tbMkABERVxdiasKE+9mUpMEsQD7yRbAwa0X/6CzLgbZMSgZECHBDfMwvvtPw8RSLPXGSXcELZL4fudLGCLgCNWfmjv2b+pbiWtTd/DZM7Ne7AgIh6m2Me3Eoc0UqlhqR5Ag1BARw1uzsaxzCzcdT0UCMeTvOq3fcsH3lgaVh9K7NaCa1RHnYAPwWw6LGoEC9KjmQuP09RRKbeOzpP1/e6JaCfsvyUt6LV/2W2SHKnYSsptdNCQDqvvjGA2S6uN7XVPT557UGCbhXIjoxPa7VkU3yC/AtjsC3Q7Az+RXGrJA4gpQBhg4RBE8hYOl5yuiWywLcd/PeIl+rm+9KEqpMHyKNxEZHll9/nPlil1+ZM4zYPrPcmGqozU5fh+imgm0KGXry6DLo5/Eoy3Cmgq18yKVl/c91yTBCRPX3qFKAHU6MxyfTEIy3qZ4ZyG63cMn+XB8PqbnKIDe3q25anzbWxDl1PWfd88UW4jsc1bVKxagOihLHLVuJsQ3HFPaSZj9cHeb/+VtDL7Zd0p3m+1E10sgSSzd9ybpK5psm4tAbDdQQNrGC51QvQeM0YyQjLtyWxUZ9fOfqXXjpfrCKiENpQ2JWJQ9E8jMMEfnWWav4YRVPK7bJhl48JhCJt593Fo6XNdYwn/j26Uci1fnUYOr6v7JdM7qX0=
+  on:
+    tags: true
+    repo: CodeScience/jsforce-metadata-tools
